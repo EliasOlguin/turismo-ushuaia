@@ -5,7 +5,7 @@ import { MatIconModule } from '@angular/material';
 const MaterialComponents = [MatToolbarModule, CommonModule, MatIconModule];
 @NgModule({
   declarations: [],
-  imports: [MaterialComponents],
-  exports: [MaterialComponents],
+  imports: MaterialComponents,
+  exports: MaterialComponents,
 })
 export class MaterialModule {}
